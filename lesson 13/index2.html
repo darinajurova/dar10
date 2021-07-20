@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <form action="#" method="POST">
+        <h2 class="form-title">Contact form</h2>
+        <p class="form-text">Please fill in your information and we'll be sending your order.</p>
+
+        <div class="box-container">
+            <label for="first-name">Your name</label>
+            <input type="text" placeholder="First name" name="first-name" id="first-name">
+            <input type="text" name="last-name" placeholder="Last name">
+        </div>
+
+        <div class="box-container">
+            <label for="user-email">Your email</label>
+            <input type="email" name="user-email" id="user-email" placeholder="yourmail@mail.com">
+        </div>
+
+        <div class="box-container">
+            <label for="code-phone">Phone*</label>
+            <input type="text" name="code-phone" id="code-phone" placeholder="000" required>
+            <input type="text" name="code-path2" placeholder="000" required>
+            <input type="text" name="code-path3" placeholder="0000" required>
+        </div>
+
+        <div class="box-container">
+            <label for="msg-text">Message subject</label>
+            <select name="msg-text" id="msg-text">
+                <option value="13">Other</option>
+                <option value="23">23</option>
+                <option value="33">33</option>
+                <option value="43">43</option>
+                <option value="53">53</option>
+            </select>
+        </div>
+        <div class="box-container">
+            <label for="discribe">Message</label>
+            <textarea name="discribe" id="discribe" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+</body>
+</html>
